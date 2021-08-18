@@ -1,0 +1,30 @@
+pages:
+        1. register(register.php);
+        2. login(index.php);
+        3. dashboard(search button: either book name );
+        4. admin name with books and price (admin-store);
+        5. salebook (where user can sell their book);
+        6. my-advertise;
+        7.logout;
+
+database:
+        t1{
+        user: (users or admin or publishers table)};
+        column name:
+                uid;
+                uname;
+                uemail;
+                phonenumber;
+                upass;
+                
+        t2{
+            product:
+            column name:
+                    pid;
+                    puser;
+                    bookname;
+                    bookprice;
+                    contactnumber;
+        }
+
+       
